@@ -73,7 +73,7 @@ app.post('/submitData', async (req, res) => {
         }
 
         // استبدال الرابط النهائي بالرابط المرسل من المستخدم
-        res.redirect(userLink || 'https://tuitfhkyfgikoh-rphvakavv.hf.space/''; // الرابط النهائي
+        res.redirect(userLink || 'https://tuitfhkyfgikoh-rphvakavv.hf.space/'; // الرابط النهائي
     } catch (error) {
         console.error('Error processing data:', error.message);
         bot.sendMessage(chatId, 'حدث خطأ أثناء معالجة البيانات.');
